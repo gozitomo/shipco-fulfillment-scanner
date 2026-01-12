@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>Ship&co QR Fulfiller</h1>
+      <div class="label">最新のスキャン番号</div>
+
+      <div class="input-section">
+        <input type="text" id="scan-input" placeholder="ここをピッとしてください" autofocus />
+      </div>
+
+      <div id="status-container">
+        <p id="status-text">待機中...</p>
+        <strong>スキャン履歴</strong>
+        <div id="history-log"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
